@@ -1,20 +1,39 @@
-# YouTube Clone (HTML + CSS)
+# YouTube.com Clone 🎥
 
-This is a beginner-friendly clone of the YouTube interface using only HTML and CSS.  
-It includes a simple layout with thumbnails, video titles, and basic styling.
-
-## Features
-
-- Responsive video preview layout
-- Thumbnails and video info
-- Simple and clean structure
-
-## Future Improvements
-
-- Add sidebar and header
-- Add responsiveness
-- Improve styling
+A front-end clone of YouTube.com built using **HTML** and **CSS** to practice layout design, flexbox, and responsive UI components.  
 
 ---
 
-Built with ❤️ using HTML & CSS.
+## ✨ Features
+- **Header Navigation** with YouTube logo, search bar, and icons  
+- **Sidebar Menu** with quick links like Home, Explore, Subscriptions, etc.  
+- **Video Grid Layout** displaying thumbnails, durations, and video details  
+- **Clickable Links** for videos and channel pages  
+- **Separate CSS Files** for cleaner structure:
+  - `general.css`
+  - `header.css`
+  - `video.css`
+  - `sidebar.css`
+
+---
+
+## 📂 Project Structure
+.
+├── index.html
+├── styles
+│ ├── general.css
+│ ├── header.css
+│ ├── video.css
+│ └── sidebar.css
+├── thumbnails
+│ ├── thumbnail-1.webp
+│ ├── thumbnail-2.webp
+│ └── ...
+├── channel-pictures
+│ ├── channel-1.jpeg
+│ ├── channel-2.jpeg
+│ └── ...
+└── icons
+├── hamburger-menu.svg
+├── youtube-logo.svg
+└── ...
